@@ -19,6 +19,7 @@ jobs:
           echo "POSTGRES_USER=${{secrets.POSTGRES_USER}}" >> .env
           echo "DATABASE_URL=${{secrets.DATABASE_URL}}" >> .env
           echo "CELERY_BROKER_URL=${{secrets.CELERY_BROKER_URL}}" >> .env
+          echo "CELERY_BROKER_URL=${{secrets.CELERY_BROKER_URL}}" >> .env
 
       - name: Build Docker image
         run: docker compose build
