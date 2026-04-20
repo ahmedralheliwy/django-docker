@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-__(8qizl0d_@=(r1qog#7x52j0+3wq=615mw+xmd_3l-j6-xgx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','localhost','django-docker-production-e637.up.railway.app']
+ALLOWED_HOSTS = ['0.0.0.0','localhost','django-docker-production-e637.up.railway.app','extraordinary-inspiration-production-faa5.up.railway.app']
 
 
 # Application definition
